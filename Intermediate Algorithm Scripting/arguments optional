@@ -1,0 +1,31 @@
+function addTogether() {
+  //if more than one argument see if both are numbers
+  if(arguments.length>1){
+    if(typeof arguments[0] === 'number' && typeof arguments[1] === 'number'){
+      return arguments[0] + arguments[1];
+    }
+    else{
+      return undefined;
+    }
+  }
+  //if only one argument
+  else{
+    //check if arguments[0] is a number
+    if(typeof arguments[0]!== 'number'){
+      return undefined;
+    }
+    //closure var a save value
+    var a = arguments[0];
+    //the function to return, arg2 when call returned function
+    return function(arg2){
+      if(typeof a === 'number' && typeof arg2 === 'number'){
+         return a + arg2;
+      }
+      else{
+        return undefined;
+      }
+    };
+  }
+}
+
+addTogether(2,3);
