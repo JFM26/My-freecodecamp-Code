@@ -1,5 +1,3 @@
-```
-
 var Person = function(firstAndLast) {
   //create variables firstname and lastName  
   var firstName = firstAndLast.slice(0,firstAndLast.indexOf(" "));
@@ -33,5 +31,3 @@ var Person = function(firstAndLast) {
 var bob = new Person('Bob Ross');
 
 bob.getFullName();
-
-```
