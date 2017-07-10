@@ -1,3 +1,4 @@
+
 function telephoneCheck(str) {
     //Regexp characters (,),/,-,whitspaces to get  string (var a) without them just numbers
     var re = /[()-\s]/g;
