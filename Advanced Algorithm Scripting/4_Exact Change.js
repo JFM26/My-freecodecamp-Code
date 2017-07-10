@@ -36,7 +36,7 @@ function checkCashRegister(price, cash, cid) {
     return "Insufficient Funds";
   }
   
-  //if after change is given no cash in register return "closed"
+  //if after change is given no cash in register return "closed"  
   var counter = 0;
   for(var i =0;i<changeName.length;i++){
     if(cashInRegister[changeName[i]]===0){
