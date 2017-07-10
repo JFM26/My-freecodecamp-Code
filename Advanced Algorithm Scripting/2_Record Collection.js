@@ -1,3 +1,4 @@
+
 var collection = {
     "2548": {
       "album": "Slippery When Wet",
@@ -49,3 +50,4 @@ function updateRecords(id, prop, value) {
 
 // Alter values below to test your code
 updateRecords(2548, "artist", "");
+
