@@ -1,3 +1,4 @@
+
 function sym(args){
    //array of arguments
     var arr =[].slice.call(arguments);
